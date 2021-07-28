@@ -1,0 +1,15 @@
+Function EnumerationInterval(a, b) {
+
+    let SetInterval = setInterval(() => {
+
+        if(a <= b) {
+            console.log(a);
+            x++;
+
+        } else {
+            clearInterval(SetInterval);
+        }
+    }, 1000);
+}
+
+EnumerationInterval(4, 15);

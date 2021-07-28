@@ -1,0 +1,10 @@
+function sum(meaning1) {
+
+    return function (meaning2) {
+
+        return meaning1 + meaning2;
+    }
+}
+
+let sumTwo = sum(5);
+console.log(sumTwo(14));

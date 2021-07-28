@@ -1,0 +1,22 @@
+function primeNumber(number) {
+
+    if (number < 1000) {
+
+        if (number > 1 && number % 2 != 0) {
+
+            console.log(''Число простое);
+
+        } else {
+
+            console.log('Число не является простым');
+        }
+    } else {
+
+        console.log('Вы ввели число за пределами допустимых значений');
+    }
+}
+
+primeNumber(7);
+primeNumber(8);
+primeNumber(97);
+primeNumber(1100);
