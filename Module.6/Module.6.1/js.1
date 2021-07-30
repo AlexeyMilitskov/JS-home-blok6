@@ -4,7 +4,7 @@ function typeDetermiant() {
 
     const value = +inputValue;
 
-    if (typeof value == 'number' && !isNaN(value)) {
+    if (!isNaN(value)) { // проверка на typeof здесь лишняя, потому что после применения унарного плюса значение в любом случае будет числового типа
 
         if (value == 0) {
 
